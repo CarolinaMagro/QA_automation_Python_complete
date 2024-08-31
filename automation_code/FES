@@ -1,0 +1,232 @@
+
+ContactsEndpoint | GET | /Contacts/{id} | 200
+ContactsEndpoint | GET | /Contacts/{id} | 404
+ContactsEndpoint | GET | /Contacts/{id} | 403
+ContactsEndpoint | GET | /Contacts/{id} | 201
+ContactsEndpoint | GET | /Contacts/{id} | 400
+ContactsEndpoint | GET | /Contacts/{id} | 401
+ContactsEndpoint | GET | /Contacts/{id} | 500
+
+ContactsEndpoint | GET | /Contacts | 200
+ContactsEndpoint | GET | /Contacts | 404
+ContactsEndpoint | GET | /Contacts | 403
+ContactsEndpoint | GET | /Contacts | 201
+ContactsEndpoint | GET | /Contacts | 400
+ContactsEndpoint | GET | /Contacts | 401
+ContactsEndpoint | GET | /Contacts | 500
+
+EventsEndpoints | GET | /events/{id} | 200
+EventsEndpoints | GET | /events/{id} | 404
+EventsEndpoints | GET | /events/{id} | 403
+EventsEndpoints | GET | /events/{id} | 201
+EventsEndpoints | GET | /events/{id} | 400
+EventsEndpoints | GET | /events/{id} | 401
+EventsEndpoints | GET | /events/{id} | 500
+
+EventsEndpoints | PUT | /events/{id} | 200
+EventsEndpoints | PUT | /events/{id} | 404
+EventsEndpoints | PUT | /events/{id} | 403
+EventsEndpoints | PUT | /events/{id} | 201
+EventsEndpoints | PUT | /events/{id} | 400
+EventsEndpoints | PUT | /events/{id} | 401
+EventsEndpoints | PUT | /events/{id} | 500
+
+EventsEndpoints | GET | /events | 200
+EventsEndpoints | GET | /events | 404
+EventsEndpoints | GET | /events | 403
+EventsEndpoints | GET | /events | 201
+EventsEndpoints | GET | /events | 400
+EventsEndpoints | GET | /events | 401
+EventsEndpoints | GET | /events | 500
+
+Households | POST | /Households | 200
+Households | POST | /Households | 404
+Households | POST | /Households | 403
+Households | POST | /Households | 201
+Households | POST | /Households | 400
+Households | POST | /Households | 401
+Households | POST | /Households | 500
+
+Households | GET | /Households | 200
+Households | GET | /Households | 404
+Households | GET | /Households | 403
+Households | GET | /Households | 201
+Households | GET | /Households | 400
+Households | GET | /Households | 401
+Households | GET | /Households | 500
+
+Households | GET | /Households/{id}| 200
+Households | GET | /Households/{id}| 404
+Households | GET | /Households/{id}| 403
+Households | GET | /Households/{id}| 201
+Households | GET | /Households/{id}| 400
+Households | GET | /Households/{id}| 401
+Households | GET | /Households/{id}| 500
+
+Households | PUT | /Households/{id} | 200
+Households | PUT | /Households/{id} | 404
+Households | PUT | /Households/{id} | 403
+Households | PUT | /Households/{id} | 201
+Households | PUT | /Households/{id} | 400
+Households | PUT | /Households/{id} | 401
+Households | PUT | /Households/{id} | 500
+
+Households | GET | /Households/{id}/noticeboard | 200
+Households | GET | /Households/{id}/noticeboard | 404
+Households | GET | /Households/{id}/noticeboard | 403
+Households | GET | /Households/{id}/noticeboard | 201
+Households | GET | /Households/{id}/noticeboard | 400
+Households | GET | /Households/{id}/noticeboard | 401
+Households | GET | /Households/{id}/noticeboard | 500
+
+Households | GET | /Households/{id}/box | 200
+Households | GET | /Households/{id}/box | 404
+Households | GET | /Households/{id}/box | 403
+Households | GET | /Households/{id}/box | 201
+Households | GET | /Households/{id}/box | 400
+Households | GET | /Households/{id}/box | 401
+Households | GET | /Households/{id}/box | 500
+
+Households | POST | /Households/{id}/box | 200
+Households | POST | /Households/{id}/box | 404
+Households | POST | /Households/{id}/box | 403
+Households | POST | /Households/{id}/box | 201
+Households | POST | /Households/{id}/box | 400
+Households | POST | /Households/{id}/box | 401
+Households | POST | /Households/{id}/box | 500
+
+Households | PUT | /Households/{id}/box | 200
+Households | PUT | /Households/{id}/box | 404
+Households | PUT | /Households/{id}/box | 403
+Households | PUT | /Households/{id}/box | 201
+Households | PUT | /Households/{id}/box | 400
+Households | PUT | /Households/{id}/box | 401
+Households | PUT | /Households/{id}/box | 500
+
+Prospects | POST | /prospects | 200
+Prospects | POST | /prospects | 404
+Prospects | POST | /prospects | 403
+Prospects | POST | /prospects | 201
+Prospects | POST | /prospects | 400
+Prospects | POST | /prospects | 401
+Prospects | POST | /prospects | 500
+
+Prospects | GET | /prospects | 200
+Prospects | GET | /prospects | 404
+Prospects | GET | /prospects | 403
+Prospects | GET | /prospects | 201
+Prospects | GET | /prospects | 400
+Prospects | GET | /prospects | 401
+Prospects | GET | /prospects | 500
+
+Prospects | GET | /prospects/{id} | 200
+Prospects | GET | /prospects/{id} | 404
+Prospects | GET | /prospects/{id} | 403
+Prospects | GET | /prospects/{id} | 201
+Prospects | GET | /prospects/{id} | 400
+Prospects | GET | /prospects/{id} | 401
+Prospects | GET | /prospects/{id} | 500
+
+Prospects |PUT, /prospects/{id} | 200
+Prospects |PUT, /prospects/{id} | 404
+Prospects |PUT, /prospects/{id} | 403
+Prospects |PUT, /prospects/{id} | 201
+Prospects |PUT, /prospects/{id} | 400
+Prospects |PUT, /prospects/{id} | 401
+Prospects |PUT, /prospects/{id} | 500
+
+Prospects | PUT | /prospects/{id}/attributes | 200
+Prospects | PUT | /prospects/{id}/attributes | 404
+Prospects | PUT | /prospects/{id}/attributes | 403
+Prospects | PUT | /prospects/{id}/attributes | 201
+Prospects | PUT | /prospects/{id}/attributes | 400
+Prospects | PUT | /prospects/{id}/attributes | 401
+Prospects | PUT | /prospects/{id}/attributes | 500
+
+Prospects | GET | /prospects/{id}/attributes | 200
+Prospects | GET | /prospects/{id}/attributes | 404
+Prospects | GET | /prospects/{id}/attributes | 403
+Prospects | GET | /prospects/{id}/attributes | 201
+Prospects | GET | /prospects/{id}/attributes | 400
+Prospects | GET | /prospects/{id}/attributes | 401
+Prospects | GET | /prospects/{id}/attributes | 500
+
+StatsEndpoints | GET | /stats/tasks | 200
+StatsEndpoints | GET | /stats/tasks | 404
+StatsEndpoints | GET | /stats/tasks | 403
+StatsEndpoints | GET | /stats/tasks | 201
+StatsEndpoints | GET | /stats/tasks | 400
+StatsEndpoints | GET | /stats/tasks | 401
+StatsEndpoints | GET | /stats/tasks | 500
+
+StatsEndpoints | GET | /stats/events | 200
+StatsEndpoints | GET | /stats/events | 404
+StatsEndpoints | GET | /stats/events | 403
+StatsEndpoints | GET | /stats/events | 201
+StatsEndpoints | GET | /stats/events | 400
+StatsEndpoints | GET | /stats/events | 401
+StatsEndpoints | GET | /stats/events | 500
+
+TasksEndpoint | POST | /tasks | 200
+TasksEndpoint | POST | /tasks | 404
+TasksEndpoint | POST | /tasks | 403
+TasksEndpoint | POST | /tasks | 201
+TasksEndpoint | POST | /tasks | 400
+TasksEndpoint | POST | /tasks | 401
+TasksEndpoint | POST | /tasks | 500
+
+TasksEndpoint | GET | /tasks | 200
+TasksEndpoint | GET | /tasks | 404
+TasksEndpoint | GET | /tasks | 403
+TasksEndpoint | GET | /tasks | 201
+TasksEndpoint | GET | /tasks | 400
+TasksEndpoint | GET | /tasks | 401
+TasksEndpoint | GET | /tasks | 500
+
+TasksEndpoint | PUT | /tasks/{id} | 200
+TasksEndpoint | PUT | /tasks/{id} | 404
+TasksEndpoint | PUT | /tasks/{id} | 403
+TasksEndpoint | PUT | /tasks/{id} | 201
+TasksEndpoint | PUT | /tasks/{id} | 400
+TasksEndpoint | PUT | /tasks/{id} | 401
+TasksEndpoint | PUT | /tasks/{id} | 500
+
+TasksEndpoint | GET | /tasks/{id} | 200
+TasksEndpoint | GET | /tasks/{id} | 404
+TasksEndpoint | GET | /tasks/{id} | 403
+TasksEndpoint | GET | /tasks/{id} | 201
+TasksEndpoint | GET | /tasks/{id} | 400
+TasksEndpoint | GET | /tasks/{id} | 401
+TasksEndpoint | GET | /tasks/{id} | 500
+
+TasksEndpoint | DELETE | /tasks/{id} | 200
+TasksEndpoint | DELETE | /tasks/{id} | 404
+TasksEndpoint | DELETE | /tasks/{id} | 403
+TasksEndpoint | DELETE | /tasks/{id} | 201
+TasksEndpoint | DELETE | /tasks/{id} | 400
+TasksEndpoint | DELETE | /tasks/{id} | 401
+TasksEndpoint | DELETE | /tasks/{id} | 500
+
+TasksEndpoint | GET | /tasks/{id}/outcomes | 200
+TasksEndpoint | GET | /tasks/{id}/outcomes | 404
+TasksEndpoint | GET | /tasks/{id}/outcomes | 403
+TasksEndpoint | GET | /tasks/{id}/outcomes | 201
+TasksEndpoint | GET | /tasks/{id}/outcomes | 400
+TasksEndpoint | GET | /tasks/{id}/outcomes | 401
+TasksEndpoint | GET | /tasks/{id}/outcomes | 500
+
+TasksEndpoint | GET | /taskStatuses | 200
+TasksEndpoint | GET | /taskStatuses | 404
+TasksEndpoint | GET | /taskStatuses | 403
+TasksEndpoint | GET | /taskStatuses | 201
+TasksEndpoint | GET | /taskStatuses | 400
+TasksEndpoint | GET | /taskStatuses | 401
+TasksEndpoint | GET | /taskStatuses | 500
+
+default | PUT | /checklistItems/{id} | 200
+default | PUT | /checklistItems/{id} | 404
+default | PUT | /checklistItems/{id} | 403
+default | PUT | /checklistItems/{id} | 201
+default | PUT | /checklistItems/{id} | 400
+default | PUT | /checklistItems/{id} | 401
+default | PUT | /checklistItems/{id} | 500

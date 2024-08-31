@@ -1,0 +1,33 @@
+  Feature: Households Endpoint Test Scenarios
+  
+@Households
+  Scenario 1: Successfully get a list of DynAccountRecords
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" with query parameters
+  Then the response status code should be 200
+  And the response body should contain the list of DynAccountRecords
+Scenario: Successfully get a list of DynAccountRecords
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" with query parameters
+  Then the response status code should be 200
+  And the response body should contain the list of DynAccountRecords
+  
+@Households
+  Scenario 2: Attempt to get a list of DynAccountRecords with invalid query
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" with invalid query parameters
+  Then the response status code should be 404
+Scenario: Attempt to get a list of DynAccountRecords with invalid query
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" with invalid query parameters
+  Then the response status code should be 404
+  
+@Households
+  Scenario 3: Attempt to get a list of DynAccountRecords without proper authorization
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" without proper authorization
+  Then the response status code should be 403
+Scenario: Attempt to get a list of DynAccountRecords without proper authorization
+  Given the Households endpoint is available
+  When a GET request is made to "/Households" without proper authorization
+  Then the response status code should be 403
